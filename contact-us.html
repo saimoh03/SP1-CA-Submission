@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Community Science Museum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/const-sheet.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/open-science-735787_17_11zon.jpg" type="image/x-icon">
+    <!-- font-awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/open-science-735787_17_11zon.jpg" alt="Open Science Logo" onclick="location.href='index.html'">
+            <div class="sidebar-bars">
+                <i class="fa-solid fa-bars sidebar-bars" onclick="sidebar_open()"></i>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+                <li><a href="special-events.html">Special Events</a></li>
+                <li><a href="visit.html">Visit</a></li>
+            </ul>
+tml            
+        </nav>
+        <div class="contact-button">
+                <button class="button" onclick="location.href='contact-us.html'">Contact Us</button>
+        </div>
+    </header>
+
+
+  <!-- Sidebar -->
+  <div class="sidebar-container" id="mySidebar">
+    <ul>
+        <a href="index.html"> <li> Home </li> </a>
+        <a href="explore.html"> <li> Explore </li> </a>
+        <a href="exhibition-spaces.html"> <li> Exhibition Spaces </li> </a>
+        <a href="special-events.html"> <li> Special Events </li> </a>
+        <a href="visit.html"> <li> Visit </li> </a>
+        <a href="get-involved.html"> <li> Get Involved </li> </a>
+        <a href="contact-us.html"> <li> Contact Us </li> </a>
+         <li onclick="sidebar_close()"> &times; Close </li>
+    </ul>
+  </div>
+
+
+    <!-- main content -->
+     
+    <section id="pageLabel">
+        <h2>Contact us</h2>
+    </section>
+    <main>
+
+        <section id="contentContainerContactUs">
+            <div class="contactUsDetails">
+                
+                <div class="col-content">
+                    <h2>Contact Details</h2>
+                    <p>
+                    <b>Email</b>
+                    <br>
+                    info@museum.co.uk
+                    <br>
+                    <br>
+                    <b>Phone Number</b>
+                    <br>
+                    +44122312312322
+                    <br>
+                    <br>
+                    <b>Address</b>
+                    <br>
+                    Great Russell St, London WC1B 3DG, United Kingdom</p>
+
+                    <div class="col-content col-image-for-cpntactus ex-1-img"></div>
+                </div>
+            </div>
+
+            <div class="contactUsForm">
+                <h2> GET A FREE QUOTE</h2>
+                <p>We are here to helps you in learning the new things about the Our Exhibition</p>
+                
+
+                <div class="form-container">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="surname">Surname:</label>
+                            <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+                        </div>
+            
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            
+        </section>
+    </main>
+    
+
+<!-- footer -->
+<footer>
+    <div class="footer-left">
+        <h2>Community Science Museum</h2>
+        <p>Explore Together</p>
+        <p class="footer-address"><i>Address</i></p>
+        <p>Great Russell St, London WC1B 3DG, United Kingdom</p>
+        <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+    </div>
+    <div class="footer-right">
+        
+        <div class="footer-info-cols">
+            <h2>Important Links</h2>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+                <li><a href="special-events.html">Special Events</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+            </ul>
+        </div>
+        <div class="footer-info-cols">
+            <h2>Contact Us</h2>
+            <div class="divider"></div>
+            <ul>
+                <li><b><i>Mail Address</i></b></li>
+                <li>info@museum.com</li>
+                <li><b><i>Phone Number</i></b></li>
+                <li>+4412355622123</li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="logic.js"></script>
+</body>
+</html>

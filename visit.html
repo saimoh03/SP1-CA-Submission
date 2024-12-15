@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit - Community Science Museum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/const-sheet.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/open-science-735787_17_11zon.jpg" type="image/x-icon">
+    <!-- font-awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/open-science-735787_17_11zon.jpg" alt="Open Science Logo" onclick="location.href='index.html'">
+            <div class="sidebar-bars">
+                <i class="fa-solid fa-bars sidebar-bars" onclick="sidebar_open()"></i>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+                <li><a href="special-events.html">Special Events</a></li>
+                <li><a href="visit.html">Visit</a></li>
+            </ul>
+        </nav>
+        <div class="contact-button">
+            <button class="button" onclick="location.href='contact-us.html'">Contact Us</button>
+        </div>
+    </header>
+
+
+  <!-- Sidebar -->
+  <div class="sidebar-container" id="mySidebar">
+    <ul>
+        <a href="index.html"> <li> Home </li> </a>
+        <a href="explore.html"> <li> Explore </li> </a>
+        <a href="exhibition-spaces.html"> <li> Exhibition Spaces </li> </a>
+        <a href="special-events.html"> <li> Special Events </li> </a>
+        <a href="visit.html"> <li> Visit </li> </a>
+        <a href="get-involved.html"> <li> Get Involved </li> </a>
+        <a href="contact-us.html"> <li> Contact Us </li> </a>
+         <li onclick="sidebar_close()"> &times; Close </li>
+    </ul>
+  </div>
+
+
+    <!-- main content -->
+     
+    <section id="pageLabel">
+        <h2>Visit</h2>
+    </section>
+    <main>
+        <section id="const-container">
+            <div class="container-for-const">
+                <div class="col-content">
+                    <h2>Location</h2>
+                    <p>The museum is located at <b>Great Russell St, London WC1B 3DG, United Kingdom.</b></p>
+                    
+                    <h2>Admission</h2>
+                    <p>The entrance is free for all.
+                        There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
+                        If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+                    
+                    <h2>Hours</h2>
+                    <p>
+Monday: Closed <br>
+Tuesday: 10:00 – 16:00 <br>
+Wednesday: 10:00 – 16:00 <br>
+Thursday: 10:00 – 16:00 <br>
+Friday: 10:00 – 19:00 <br>
+Saturday: 9:00 – 16:00 <br>
+Sunday: 9:00 – 13:00
+                    </p>
+
+                    <h2>Accessibility</h2>
+                    <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired</p>
+                    
+
+                    <h2>Food and drink</h2>
+                    <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired</p>
+                    
+
+                    <h2>Shop</h2>
+                    <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+
+                    
+
+                </div>
+                <div class="col-content col-image-for-const sepecial-events-img"></div>
+            </div>
+        </section>
+    </main>
+    
+
+<!-- footer -->
+<footer>
+    <div class="footer-left">
+        <h2>Community Science Museum</h2>
+        <p>Explore Together</p>
+        <p class="footer-address"><i>Address</i></p>
+        <p>Great Russell St, London WC1B 3DG, United Kingdom</p>
+        <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+    </div>
+    <div class="footer-right">
+        
+        <div class="footer-info-cols">
+            <h2>Important Links</h2>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+                <li><a href="special-events.html">Special Events</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+            </ul>
+        </div>
+        <div class="footer-info-cols">
+            <h2>Contact Us</h2>
+            <div class="divider"></div>
+            <ul>
+                <li><b><i>Mail Address</i></b></li>
+                <li>info@museum.com</li>
+                <li><b><i>Phone Number</i></b></li>
+                <li>+4412355622123</li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="logic.js"></script>
+</body>
+</html>

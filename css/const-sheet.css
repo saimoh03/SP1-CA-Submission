@@ -1,0 +1,191 @@
+#pageLabel{
+    width: 100%;
+    height: 130px;
+    background-color: #21562A;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#pageLabel h2{
+    color: #fff;
+    font-weight: normal;
+}
+#const-container{
+    height: auto;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 5px;
+}
+.container-for-const{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.col-image-for-const{
+    background-color: #000000;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kids-img{
+    background-image: url("../images/billetto-editorial-334686_3_11zon.jpg");
+}.teacher-img{
+    background-image: url("../images/luke-ellis-craven-400722_12_11zon.jpg");
+}.researchers-img{
+    background-image: url("../images/people-219985_1280_18_11zon.jpg");
+}
+
+/* Exhibition Spaces */
+.exhibitionFrontImage{
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/mammoth-1257288_1920_13_11zon.jpg");
+    object-fit: cover;
+    background-position: 30% 20%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#contentContainerExSpaces{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.contentCBox{
+    padding: 20px;
+}
+.contentCBox p{
+    text-align: justify;
+}
+.contentCBox h2{
+    padding-top: 10px;
+}
+.contentCimagesBox{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+.ex-1-img{
+    background-image: url("../images/genoa-956405_1920_6_11zon.jpg");
+}.ex-2-img{
+    background-image: url("../images/skeleton-414543_1920_26_11zon.jpg");
+}.ex-3-img{
+    background-image: url("../images/samuel-zeller-113381_21_11zon.jpg");
+}
+
+/* specialEventsContainer */
+.specialEventsContainer{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 9px 14px -9px rgba(0, 0, 0, 0.29);
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.sepecial-events-img{
+    background-image: url("../images/samuel-zeller-158996_22_11zon.jpg");
+}
+.get-involved-img{
+    background-image: url("../images/luke-ellis-craven-400722_12_11zon.jpg");
+}
+
+/* contentContainerContactUs */
+#contentContainerContactUs{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.contactUsDetails{
+    background-color: transparent;
+}
+.col-image-for-cpntactus{
+    width: 100%;
+    height: 280px;
+    background-color: #000000;
+    background-image: url("../images/map_14_11zon.jpg");
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 50px;
+}
+.contactUsForm{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.contactUsForm h2{
+    font-size: 15px;
+}
+.contactUsForm p{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.form-container {
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"], input[type="text"] {
+    height: 40px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #444;
+}

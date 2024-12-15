@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Science Museum</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="shortcut icon"
+      href="images/open-science-735787_17_11zon.jpg"
+      type="image/x-icon"
+    />
+    <!-- font-awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img
+          src="images/open-science-735787_17_11zon.jpg"
+          alt="Open Science Logo"
+          onclick="location.href='index.html'"
+        />
+        <div class="sidebar-bars">
+          <i class="fa-solid fa-bars sidebar-bars" onclick="sidebar_open()"></i>
+        </div>
+      </div>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+            <li><a href="special-events.html">Special Events</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+          
+      </nav>
+      <div class="contact-button">
+        <button class="button" onclick="location.href='contact-us.html'">
+          Contact Us
+        </button>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar-container" id="mySidebar">
+      <ul>
+        <a href="index.html"> <li>Home</li> </a>
+        <a href="explore.html"> <li>Explore</li> </a>
+        <a href="exhibition-spaces.html"> <li>Exhibition Spaces</li> </a>
+        <a href="special-events.html"> <li>Special Events</li> </a>
+        <a href="visit.html"> <li>Visit</li> </a>
+        <a href="get-involved.html"> <li>Get Involved</li> </a>
+        <a href="contact-us.html"> <li>Contact Us</li> </a>
+        <li onclick="sidebar_close()">&times; Close</li>
+      </ul>
+    </div>
+
+    <!-- hero Section -->
+
+    <section id="hero-container">
+      <div class="intro-col">
+        <h1>Community Science Museum</h1>
+        <h2>Explore Together</h2>
+        <div class="explore-involved-buttons">
+          <button class="button" onclick="location.href='get-involved.html'">
+            Get Involved
+          </button>
+          <button
+            class="button explore-btn"
+            onclick="location.href='explore.html'"
+          >
+            Explore
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- main content -->
+
+    <main>
+      <section id="why-join-us">
+        <label class="section-label">why join us ?</label>
+        <div class="container-for-why-join-us">
+          <div class="col-content">
+            <h2>
+              Come join us at the Community Science Museum where we’re committed
+              to making science accessible to all.
+            </h2>
+            <p>
+              Over the course of human history, science has developed from our
+              early understanding of fire, wind, water, and earth to exploring
+              everything from galaxies far away to the very building blocks of
+              life itself.
+            </p>
+            <p>
+              The aim of our museum is to create a space where everyone can
+              experience the wonders of our discoveries and perhaps even ignite
+              a lifelong passion to continue the exploration of the world around
+              us.
+            </p>
+            <p>
+              We believe science should not be confined to the textbook, but
+              brought to live through exhibits. This is why we have over 1000
+              different exhibits on the many varied subjects of science to
+              explore. Many of these exhibits are designed for you to interact
+              with and play around to see science come to life (apart from the
+              dinosaur exhibits – they only come to life at night when
+              everyone’s gone home).
+            </p>
+            <button class="button" onclick="location.href='get-involved.html'">
+              Get Involved
+            </button>
+          </div>
+          <div class="col-content col-image"></div>
+        </div>
+      </section>
+
+      <section id="explore">
+        <label class="section-label">Explore</label>
+        <div class="container-for-explore">
+          <div class="col-explore">
+            <div class="col-explore-img">
+              <div class="explore-circle">
+                <img src="images/kids.png" alt="kids" class="exploreImg" />
+              </div>
+            </div>
+            <div class="col-explore-content">
+              <p>For kids</p>
+            </div>
+          </div>
+          <div class="col-explore">
+            <div class="col-explore-img">
+              <div class="explore-circle">
+                <img
+                  src="images/teacher.png"
+                  alt="teacher"
+                  class="exploreImg"
+                />
+              </div>
+            </div>
+            <div class="col-explore-content">
+              <p>For Teachers</p>
+            </div>
+          </div>
+          <div class="col-explore">
+            <div class="col-explore-img">
+              <div class="explore-circle">
+                <img
+                  src="images/search-user.png"
+                  alt="Researchers"
+                  class="exploreImg researchers"
+                />
+              </div>
+            </div>
+            <div class="col-explore-content">
+              <p>For Researchers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <label class="section-label">Gallery</label>
+        <div class="container-for-gallery">
+          <div class="gallery-4-images">
+            <div class="gallery-cards cards1"></div>
+            <div class="gallery-cards cards2"></div>
+            <div class="gallery-cards cards3"></div>
+            <div class="gallery-cards cards4"></div>
+          </div>
+          <div class="gallery-1-images cards5"></div>
+        </div>
+      </section>
+
+      <section id="exhibition-spaces">
+        <label class="section-label">Exhibition Spaces</label>
+        <div class="container-for-exhibition-spaces">
+          <div class="col-contents">
+            <h2>Cosmology</h2>
+            <p>
+              Explore the wonders of our cosmos. Our fantastic exhibition, ‘The
+              Sky Above Us’, explores the night sky and what we can see and know
+              about the universe around us.
+            </p>
+            <p>
+              We’ll locate the various constellations and galaxies that can be
+              seen and learn a bit about the early navigators who used the stars
+              to travel by. Follow the journey of our solar exploration: from
+              early Arab traders, to Galileo’s telescope, to the latest
+              exploration of the planets in our solar system.
+            </p>
+            <button class="button" onclick="location.href='get-involved.html'">
+              Get Involved
+            </button>
+          </div>
+          <div class="col-content col-image"></div>
+        </div>
+      </section>
+
+      <section id="news-events">
+        <label class="section-label">News & Events</label>
+        <div class="container-for-news">
+          <div class="col-news-events hideonres">
+            <img
+              src="images/scientific-2040795_1280_24_11zon.jpg"
+              alt="news-events"
+            />
+            <h2>Heart</h2>
+            <p>
+              The heart is often regarded as the center of life, symbolizing
+              love, emotion, and vitality. In the context of a museum
+              exhibition.
+            </p>
+            <button class="button">Read more</button>
+          </div>
+          <div class="col-news-events">
+            <img
+              src="images/scott-webb-102825_25_11zon.jpg"
+              alt="news-events"
+            />
+            <h2>Museum</h2>
+            <p>
+              A museum is a place dedicated to preserving and showcasing
+              collections of historical, cultural, artistic, or scientific
+              significance.
+            </p>
+            <button class="button">Read more</button>
+          </div>
+          <div class="col-news-events hideonres">
+            <img
+              src="images/william-bout-264826_29_11zon.jpg"
+              alt="news-events"
+            />
+            <h2>Latest Event</h2>
+            <p>
+              These events offer unique opportunities to explore art, culture,
+              allowing visitors to deepen their understanding and appreciation
+              of diverse human experiences.
+            </p>
+            <button class="button">Read more</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-left">
+        <h2>Community Science Museum</h2>
+        <p>Explore Together</p>
+        <p class="footer-address"><i>Address</i></p>
+        <p>Great Russell St, London WC1B 3DG, United Kingdom</p>
+        <ul>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <div class="footer-info-cols">
+          <h2>Important Links</h2>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+            <li><a href="special-events.html">Special Events</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+          </ul>
+        </div>
+        <div class="footer-info-cols">
+          <h2>Contact Us</h2>
+          <div class="divider"></div>
+          <ul>
+            <li>
+              <b><i>Mail Address</i></b>
+            </li>
+            <li>info@museum.com</li>
+            <li>
+              <b><i>Phone Number</i></b>
+            </li>
+            <li>+4412355622123</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="logic.js"></script>
+  </body>
+</html>

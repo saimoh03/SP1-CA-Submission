@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community Science Museum</title>
+    <meta name="description" content="Welcome to the Community Science Museum - a place where science comes alive for kids, teachers and researchers. Explore interactive exhibits, join exciting events, and get involved in making science accessible to all." />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link
@@ -11,14 +12,12 @@
       href="images/open-science-735787_17_11zon.jpg"
       type="image/x-icon"
     />
-    <!-- font-awesome for icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     />
   </head>
   <body>
-    <!-- Header -->
     <header>
       <div class="logo">
         <img
@@ -32,15 +31,14 @@
       </div>
       <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="explore.html">Explore</a></li>
-            <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
-            <li><a href="special-events.html">Special Events</a></li>
-            <li><a href="visit.html">Visit</a></li>
-            <li><a href="get-involved.html">Get Involved</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+          <li><a href="special-events.html">Special Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
-          
       </nav>
       <div class="contact-button">
         <button class="button" onclick="location.href='contact-us.html'">
@@ -49,21 +47,20 @@
       </div>
     </header>
 
-    <!-- Sidebar -->
-    <div class="sidebar-container" id="mySidebar">
-      <ul>
-        <a href="index.html"> <li>Home</li> </a>
-        <a href="explore.html"> <li>Explore</li> </a>
-        <a href="exhibition-spaces.html"> <li>Exhibition Spaces</li> </a>
-        <a href="special-events.html"> <li>Special Events</li> </a>
-        <a href="visit.html"> <li>Visit</li> </a>
-        <a href="get-involved.html"> <li>Get Involved</li> </a>
-        <a href="contact-us.html"> <li>Contact Us</li> </a>
-        <li onclick="sidebar_close()">&times; Close</li>
-      </ul>
-    </div>
-
-    <!-- hero Section -->
+    <aside class="sidebar-container" id="mySidebar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition-spaces.html">Exhibition Spaces</a></li>
+          <li><a href="special-events.html">Special Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li onclick="sidebar_close()">&times; Close</li>
+        </ul>
+      </nav>
+    </aside>
 
     <section id="hero-container">
       <div class="intro-col">
@@ -83,13 +80,11 @@
       </div>
     </section>
 
-    <!-- main content -->
-
     <main>
       <section id="why-join-us">
-        <label class="section-label">why join us ?</label>
+        <span class="section-label" aria-label="Section label">why join us ?</span>
         <div class="container-for-why-join-us">
-          <div class="col-content">
+          <article class="col-content">
             <h2>
               Come join us at the Community Science Museum where we’re committed
               to making science accessible to all.
@@ -118,25 +113,23 @@
             <button class="button" onclick="location.href='get-involved.html'">
               Get Involved
             </button>
-          </div>
+          </article>
           <div class="col-content col-image"></div>
         </div>
       </section>
 
       <section id="explore">
-        <label class="section-label">Explore</label>
+        <span class="section-label" aria-label="Section label">Explore</span>
         <div class="container-for-explore">
-          <div class="col-explore">
+          <article class="col-explore">
             <div class="col-explore-img">
               <div class="explore-circle">
                 <img src="images/kids.png" alt="kids" class="exploreImg" />
               </div>
             </div>
-            <div class="col-explore-content">
-              <p>For kids</p>
-            </div>
-          </div>
-          <div class="col-explore">
+            <p class="col-explore-content">For kids</p>
+          </article>
+          <article class="col-explore">
             <div class="col-explore-img">
               <div class="explore-circle">
                 <img
@@ -146,11 +139,9 @@
                 />
               </div>
             </div>
-            <div class="col-explore-content">
-              <p>For Teachers</p>
-            </div>
-          </div>
-          <div class="col-explore">
+            <p class="col-explore-content">For Teachers</p>
+          </article>
+          <article class="col-explore">
             <div class="col-explore-img">
               <div class="explore-circle">
                 <img
@@ -160,15 +151,13 @@
                 />
               </div>
             </div>
-            <div class="col-explore-content">
-              <p>For Researchers</p>
-            </div>
-          </div>
+            <p class="col-explore-content">For Researchers</p>
+          </article>
         </div>
       </section>
 
       <section id="gallery">
-        <label class="section-label">Gallery</label>
+        <span class="section-label" aria-label="Section label">Gallery</span>
         <div class="container-for-gallery">
           <div class="gallery-4-images">
             <div class="gallery-cards cards1"></div>
@@ -181,9 +170,9 @@
       </section>
 
       <section id="exhibition-spaces">
-        <label class="section-label">Exhibition Spaces</label>
+        <span class="section-label" aria-label="Section label">Exhibition Spaces</span>
         <div class="container-for-exhibition-spaces">
-          <div class="col-contents">
+          <article class="col-contents">
             <h2>Cosmology</h2>
             <p>
               Explore the wonders of our cosmos. Our fantastic exhibition, ‘The
@@ -200,15 +189,15 @@
             <button class="button" onclick="location.href='get-involved.html'">
               Get Involved
             </button>
-          </div>
+          </article>
           <div class="col-content col-image"></div>
         </div>
       </section>
 
       <section id="news-events">
-        <label class="section-label">News & Events</label>
+        <span class="section-label" aria-label="Section label">News & Events</span>
         <div class="container-for-news">
-          <div class="col-news-events hideonres">
+          <article class="col-news-events hideonres">
             <img
               src="images/scientific-2040795_1280_24_11zon.jpg"
               alt="news-events"
@@ -220,8 +209,8 @@
               exhibition.
             </p>
             <button class="button">Read more</button>
-          </div>
-          <div class="col-news-events">
+          </article>
+          <article class="col-news-events">
             <img
               src="images/scott-webb-102825_25_11zon.jpg"
               alt="news-events"
@@ -233,8 +222,8 @@
               significance.
             </p>
             <button class="button">Read more</button>
-          </div>
-          <div class="col-news-events hideonres">
+          </article>
+          <article class="col-news-events hideonres">
             <img
               src="images/william-bout-264826_29_11zon.jpg"
               alt="news-events"
@@ -246,7 +235,7 @@
               of diverse human experiences.
             </p>
             <button class="button">Read more</button>
-          </div>
+          </article>
         </div>
       </section>
     </main>
@@ -293,7 +282,13 @@
         </div>
       </div>
     </footer>
-
-    <script src="logic.js"></script>
+    <script>
+      function sidebar_open() {
+        document.getElementById("mySidebar").style.width = "250px";
+      }
+      function sidebar_close() {
+        document.getElementById("mySidebar").style.width = "0";
+      }
+    </script>
   </body>
 </html>

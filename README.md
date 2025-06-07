@@ -1,5 +1,11 @@
 # Community Science Museum
 
+## Changes during portfolio
+- Implemented style.css DRY (dont repeat yourself) make css code reuseale
+- Added meta tag in head for meta description in each page (7 pages)
+- made the index.html sementics (used html native elements for exactsame behaviour)
+
+
 ## Description
 This project is a responsive and visually appealing website for a Community Science Museum. It features interactive elements, a user-friendly sidebar, and social icons to enhance user engagement.
 
